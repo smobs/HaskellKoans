@@ -1,11 +1,11 @@
 ## installation
 
-    $ ./bin/setup-koans
+    $ stack build
 
 This may take time.
 
 ## run
 
-    $ ./bin/koans
+    $ stack exec testloop
 
 This tells you what to do. Modify `test/BasicFunctions.hs`'s `replaceValue`s to let the test passes.
